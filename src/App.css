@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(250, 250, 250);
 }
 
 .App-logo {
@@ -35,4 +36,170 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.course-details-course-author {
+  text-align: left;
+}
+
+.course-brief-heading {
+  color: salmon;
+}
+
+.course-details-main {
+  height: 200vh;
+}
+
+.course-details-course-name {
+  padding: 0% 20px;
+  text-align: justify;
+}
+
+.course-details-top {
+  align-items: center;
+  background: rgb(255, 84, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 84, 56, 1) 3%,
+    rgba(255, 82, 117, 1) 82%
+  );
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: #282c34;
+}
+.course-home-course-id {
+  color: black;
+  text-align: left;
+}
+
+.course-details-course-price {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.buy-course-button {
+  color: white;
+  background-color: #282c34;
+  transition-duration: .85s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.buy-course-button:hover {
+  /* background-color: rgb(35, 79, 221); */
+  background-color: rgb(1, 163, 163);
+}
+
+.author-img-thumbnail {
+  border-radius: 100%;
+  height: 86%;
+  margin-left: 7%;
+  margin-top: 7%;
+  object-fit: cover;
+  width: 86%;
+  transition-duration: 500ms;
+}
+
+.author-img-thumbnail:hover {
+  height: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  object-fit: cover;
+  width: 90%;
+}
+
+.author-img-thumbnail-holder {
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  height: 180px;
+  width: 180px;
+}
+
+.footer-main {
+  background-color: teal;
+  color: aliceblue;
+  padding: 80px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  text-align: left;
+}
+
+.contents-chapter {
+  background-color: whitesmoke;
+}
+
+.contents-chapter h3 {
+  background-color: rgb(250, 250, 250);
+  color: tomato;
+  text-align: left;
+}
+
+.contents-chapter-lesson {
+  /* border-radius: 10px; */
+  color: #282c34;
+  padding: 12px 0;
+  width: 100%;
+}
+.chapter-lessons {
+}
+
+.contents-duration {
+  color: black;
+  margin-left: auto;
+  padding-right: 16px;
+}
+
+.course-contents-table {
+  margin-left: 20%;
+  width: 60%;
+}
+
+.contents-chapter-lesson:hover {
+  background-color: #282c34;
+  color: coral;
+  cursor: pointer;
+}
+.small-play-button-coral {
+  padding-left: 6px;
+  font-size: large;
+}
+
+/* General styles */
+
+button {
+  background-color: rgb(15, 109, 197);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  padding: 10px 60px;
+}
+
+body {
+  background-color: #282c34;
+}
+
+p {
+  margin-left: 20%;
+  text-align: justify;
+  width: 60%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 400;
 }
